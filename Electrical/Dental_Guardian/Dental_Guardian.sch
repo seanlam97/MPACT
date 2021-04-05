@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:Battery_Cell BT?
+L Dental_Guardian-rescue:Battery_Cell-Device BT?
 U 1 1 6019D20D
 P 1150 3500
 F 0 "BT?" H 1268 3596 50  0000 L CNN
@@ -25,7 +25,7 @@ F 3 "~" V 1150 3560 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Dental_Guardian-rescue:R-Device R?
 U 1 1 6019F5CD
 P 6500 3450
 F 0 "R?" H 6570 3496 50  0000 L CNN
@@ -36,7 +36,7 @@ F 3 "~" H 6500 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Dental_Guardian-rescue:R-Device R?
 U 1 1 601A089E
 P 6500 3950
 F 0 "R?" H 6570 3996 50  0000 L CNN
@@ -73,7 +73,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 3150 6350 3150
 $Comp
-L Device:L L?
+L Dental_Guardian-rescue:L-Device L?
 U 1 1 601A5B40
 P 5100 3250
 F 0 "L?" V 4950 3300 50  0000 C CNN
@@ -99,7 +99,7 @@ Connection ~ 5300 3150
 Wire Wire Line
 	5300 3150 5450 3150
 $Comp
-L power:GND #PWR?
+L Dental_Guardian-rescue:GND-power #PWR?
 U 1 1 601A94DD
 P 5300 3650
 F 0 "#PWR?" H 5300 3400 50  0001 C CNN
@@ -114,7 +114,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 3550 5450 3550
 $Comp
-L power:GND #PWR?
+L Dental_Guardian-rescue:GND-power #PWR?
 U 1 1 601AA227
 P 6500 4200
 F 0 "#PWR?" H 6500 3950 50  0001 C CNN
@@ -127,7 +127,7 @@ $EndComp
 Wire Wire Line
 	6500 4100 6500 4200
 $Comp
-L Device:C C?
+L Dental_Guardian-rescue:C-Device C?
 U 1 1 601AC0C6
 P 4550 3400
 F 0 "C?" H 4665 3446 50  0000 L CNN
@@ -145,7 +145,7 @@ Connection ~ 4800 3150
 Wire Wire Line
 	4550 3550 4550 3650
 $Comp
-L power:GND #PWR?
+L Dental_Guardian-rescue:GND-power #PWR?
 U 1 1 601AD94A
 P 4550 3650
 F 0 "#PWR?" H 4550 3400 50  0001 C CNN
@@ -156,7 +156,7 @@ F 3 "" H 4550 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_TVS D?
+L Dental_Guardian-rescue:D_TVS-Device D?
 U 1 1 601C06EE
 P 3350 3400
 F 0 "D?" V 3304 3479 50  0000 L CNN
@@ -169,7 +169,7 @@ $EndComp
 Wire Wire Line
 	3350 3650 3350 3550
 $Comp
-L power:GND #PWR?
+L Dental_Guardian-rescue:GND-power #PWR?
 U 1 1 601E46DE
 P 3350 3650
 F 0 "#PWR?" H 3350 3400 50  0001 C CNN
@@ -180,7 +180,7 @@ F 3 "" H 3350 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR?
+L Dental_Guardian-rescue:+BATT-power #PWR?
 U 1 1 601EAA91
 P 1150 3000
 F 0 "#PWR?" H 1150 2850 50  0001 C CNN
@@ -197,7 +197,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 3700 1150 3600
 $Comp
-L power:GND #PWR?
+L Dental_Guardian-rescue:GND-power #PWR?
 U 1 1 601EDBB1
 P 1150 3700
 F 0 "#PWR?" H 1150 3450 50  0001 C CNN
@@ -212,7 +212,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 3150 3350 3250
 $Comp
-L Device:C C?
+L Dental_Guardian-rescue:C-Device C?
 U 1 1 601FD659
 P 7000 3400
 F 0 "C?" H 7115 3446 50  0000 L CNN
@@ -227,7 +227,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 3550 7000 3650
 $Comp
-L power:GND #PWR?
+L Dental_Guardian-rescue:GND-power #PWR?
 U 1 1 601FD661
 P 7000 3650
 F 0 "#PWR?" H 7000 3400 50  0001 C CNN
@@ -241,7 +241,7 @@ Wire Wire Line
 	6500 3150 7000 3150
 Connection ~ 6500 3150
 $Comp
-L power:+10V #PWR?
+L Dental_Guardian-rescue:+10V-power #PWR?
 U 1 1 601FFD52
 P 6350 3000
 F 0 "#PWR?" H 6350 2850 50  0001 C CNN
@@ -254,7 +254,7 @@ $EndComp
 Wire Wire Line
 	6350 3000 6350 3150
 $Comp
-L Switch:SW_SPST SW?
+L Dental_Guardian-rescue:SW_SPST-Switch SW?
 U 1 1 6020947E
 P 1500 3150
 F 0 "SW?" H 1500 3385 50  0000 C CNN
@@ -267,7 +267,7 @@ $EndComp
 Wire Wire Line
 	1300 3150 1150 3150
 $Comp
-L power:VDD #PWR?
+L Dental_Guardian-rescue:VDD-power #PWR?
 U 1 1 6024E2E9
 P 3200 3000
 F 0 "#PWR?" H 3200 2850 50  0001 C CNN
@@ -283,7 +283,7 @@ Wire Wire Line
 Connection ~ 1150 3150
 Connection ~ 3350 3150
 $Comp
-L Device:LED D?
+L Dental_Guardian-rescue:LED-Device D?
 U 1 1 60278D89
 P 8450 3450
 F 0 "D?" V 8489 3333 50  0000 R CNN
@@ -294,7 +294,7 @@ F 3 "~" H 8450 3450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D?
+L Dental_Guardian-rescue:LED-Device D?
 U 1 1 60288065
 P 8450 3950
 F 0 "D?" V 8489 3833 50  0000 R CNN
@@ -305,7 +305,7 @@ F 3 "~" H 8450 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D?
+L Dental_Guardian-rescue:LED-Device D?
 U 1 1 60289645
 P 8450 4450
 F 0 "D?" V 8489 4333 50  0000 R CNN
@@ -316,7 +316,7 @@ F 3 "~" H 8450 4450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L Dental_Guardian-rescue:R-Device R?
 U 1 1 602A59BD
 P 8450 4950
 F 0 "R?" H 8520 4996 50  0000 L CNN
@@ -327,7 +327,7 @@ F 3 "~" H 8450 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Dental_Guardian-rescue:R-Device R?
 U 1 1 602A7555
 P 7850 4950
 F 0 "R?" H 7920 4996 50  0000 L CNN
@@ -338,7 +338,7 @@ F 3 "~" H 7850 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Dental_Guardian-rescue:R-Device R?
 U 1 1 602A8BC8
 P 8150 4950
 F 0 "R?" H 8220 4996 50  0000 L CNN
@@ -378,7 +378,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 5100 7850 5150
 $Comp
-L power:GND #PWR?
+L Dental_Guardian-rescue:GND-power #PWR?
 U 1 1 602CDFB9
 P 8200 5750
 F 0 "#PWR?" H 8200 5500 50  0001 C CNN
@@ -391,7 +391,7 @@ $EndComp
 Wire Wire Line
 	8200 5650 8200 5750
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Dental_Guardian-rescue:Conn_01x02-Connector_Generic J?
 U 1 1 602E9269
 P 10000 3150
 F 0 "J?" H 10080 3142 50  0000 L CNN
@@ -402,7 +402,7 @@ F 3 "~" H 10000 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Dental_Guardian-rescue:GND-power #PWR?
 U 1 1 602F0ABA
 P 9700 3350
 F 0 "#PWR?" H 9700 3100 50  0001 C CNN
@@ -420,7 +420,7 @@ Connection ~ 8450 3150
 Wire Wire Line
 	8450 3150 9800 3150
 $Comp
-L Device:D_Schottky D?
+L Dental_Guardian-rescue:D_Schottky-Device D?
 U 1 1 6033A248
 P 2750 3150
 F 0 "D?" H 2750 2934 50  0000 C CNN
@@ -431,7 +431,7 @@ F 3 "~" H 2750 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Dental_Guardian-rescue:Polyfuse-Device F?
 U 1 1 6033BF61
 P 2050 3150
 F 0 "F?" V 1825 3150 50  0000 C CNN
@@ -504,4 +504,10 @@ Wire Notes Line
 	7700 3000 10300 3000
 Text Notes 7700 2950 0    79   ~ 16
 LOADS: LEDS AND FAN
+Text Notes 7400 7500 0    79   ~ 0
+LEDs and Fan Driver
+Text Notes 10600 7650 0    79   ~ 0
+A
+Text Notes 8150 7650 0    79   ~ 0
+2021-02-01
 $EndSCHEMATC

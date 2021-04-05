@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Dental_Guardian-rescue_+10V-power
+# +10V-power
 #
-DEF Dental_Guardian-rescue_+10V-power #PWR 0 0 Y Y 1 F P
+DEF +10V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Dental_Guardian-rescue_+10V-power" 0 140 50 H V C CNN
+F1 "+10V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +10V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Dental_Guardian-rescue_+BATT-power
+# +BATT-power
 #
-DEF Dental_Guardian-rescue_+BATT-power #PWR 0 0 Y Y 1 F P
+DEF +BATT-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Dental_Guardian-rescue_+BATT-power" 0 140 50 H V C CNN
+F1 "+BATT-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +BATT 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Dental_Guardian-rescue_Battery_Cell-Device
+# Battery_Cell-Device
 #
-DEF Dental_Guardian-rescue_Battery_Cell-Device BT 0 0 N N 1 F N
+DEF Battery_Cell-Device BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "Dental_Guardian-rescue_Battery_Cell-Device" 100 0 50 H V L CNN
+F1 "Battery_Cell-Device" 100 0 50 H V L CNN
 F2 "" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 DRAW
@@ -50,11 +50,11 @@ X - 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Dental_Guardian-rescue_C-Device
+# C-Device
 #
-DEF Dental_Guardian-rescue_C-Device C 0 10 N Y 1 F N
+DEF C-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Dental_Guardian-rescue_C-Device" 25 -100 50 H V L CNN
+F1 "C-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -68,11 +68,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Dental_Guardian-rescue_Conn_01x02-Connector_Generic
+# Conn_01x02-Connector_Generic
 #
-DEF Dental_Guardian-rescue_Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Dental_Guardian-rescue_Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
+F1 "Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -87,11 +87,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Dental_Guardian-rescue_D_Schottky-Device
+# D_Schottky-Device
 #
-DEF Dental_Guardian-rescue_D_Schottky-Device D 0 40 N N 1 F N
+DEF D_Schottky-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Dental_Guardian-rescue_D_Schottky-Device" 0 -100 50 H V C CNN
+F1 "D_Schottky-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -109,11 +109,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Dental_Guardian-rescue_D_TVS-Device
+# D_TVS-Device
 #
-DEF Dental_Guardian-rescue_D_TVS-Device D 0 40 N N 1 F N
+DEF D_TVS-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Dental_Guardian-rescue_D_TVS-Device" 0 -100 50 H V C CNN
+F1 "D_TVS-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -132,11 +132,11 @@ X A2 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Dental_Guardian-rescue_GND-power
+# GND-power
 #
-DEF Dental_Guardian-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Dental_Guardian-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -145,11 +145,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Dental_Guardian-rescue_L-Device
+# L-Device
 #
-DEF Dental_Guardian-rescue_L-Device L 0 40 N N 1 F N
+DEF L-Device L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "Dental_Guardian-rescue_L-Device" 75 0 50 V V C CNN
+F1 "L-Device" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -168,11 +168,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Dental_Guardian-rescue_LED-Device
+# LED-Device
 #
-DEF Dental_Guardian-rescue_LED-Device D 0 40 N N 1 F N
+DEF LED-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Dental_Guardian-rescue_LED-Device" 0 -100 50 H V C CNN
+F1 "LED-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -191,11 +191,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Dental_Guardian-rescue_Polyfuse-Device
+# Polyfuse-Device
 #
-DEF Dental_Guardian-rescue_Polyfuse-Device F 0 0 N Y 1 F N
+DEF Polyfuse-Device F 0 0 N Y 1 F N
 F0 "F" -100 0 50 V V C CNN
-F1 "Dental_Guardian-rescue_Polyfuse-Device" 100 0 50 V V C CNN
+F1 "Polyfuse-Device" 100 0 50 V V C CNN
 F2 "" 50 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -211,11 +211,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Dental_Guardian-rescue_R-Device
+# R-Device
 #
-DEF Dental_Guardian-rescue_R-Device R 0 0 N Y 1 F N
+DEF R-Device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Dental_Guardian-rescue_R-Device" 0 0 50 V V C CNN
+F1 "R-Device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -228,11 +228,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Dental_Guardian-rescue_SW_SPST-Switch
+# SW_SPST-Switch
 #
-DEF Dental_Guardian-rescue_SW_SPST-Switch SW 0 0 Y N 1 F N
+DEF SW_SPST-Switch SW 0 0 Y N 1 F N
 F0 "SW" 0 125 50 H V C CNN
-F1 "Dental_Guardian-rescue_SW_SPST-Switch" 0 -100 50 H V C CNN
+F1 "SW_SPST-Switch" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -244,57 +244,17 @@ X B 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Dental_Guardian-rescue_VDD-power
+# VDD-power
 #
-DEF Dental_Guardian-rescue_VDD-power #PWR 0 0 Y Y 1 F P
+DEF VDD-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Dental_Guardian-rescue_VDD-power" 0 150 50 H V C CNN
+F1 "VDD-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 C 0 75 25 0 1 0 N
 P 2 0 1 0 0 0 0 50 N
 X VDD 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Dental_Guardian_R1218N041A
-#
-DEF Dental_Guardian_R1218N041A U? 0 40 Y Y 1 F N
-F0 "U?" -200 350 50 H V C CNN
-F1 "Dental_Guardian_R1218N041A" 0 -350 50 H V C CNN
-F2 "" 0 300 50 H I C CNN
-F3 "" 0 300 50 H I C CNN
-DRAW
-S -250 300 250 -300 0 1 0 f
-X CE 1 -350 0 100 R 50 50 1 1 I
-X VOUT 2 350 200 100 L 50 50 1 1 w
-X VIN 3 -350 200 100 R 50 50 1 1 W
-X LX 4 -350 100 100 R 50 50 1 1 B
-X GND 5 -350 -200 100 R 50 50 1 1 B
-X VFB 6 350 0 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Dental_Guardian_SW_SP4T
-#
-DEF Dental_Guardian_SW_SP4T SW 0 40 Y Y 1 F N
-F0 "SW" 50 250 50 H V C CNN
-F1 "Dental_Guardian_SW_SP4T" 50 -300 50 H V C CNN
-F2 "" -100 200 50 H I C CNN
-F3 "" -100 200 50 H I C CNN
-DRAW
-C -80 -50 18 1 1 0 N
-C 80 -200 18 1 1 0 N
-C 80 -100 18 1 1 0 N
-C 80 0 18 1 1 0 N
-C 80 100 18 1 1 0 N
-P 2 1 1 0 -65 -40 65 40 N
-X 1 1 200 100 100 L 50 50 1 1 P
-X 2 2 200 0 100 L 50 50 1 1 P
-X 3 3 200 -100 100 L 50 50 1 1 P
-X 4 4 200 -200 100 L 50 50 1 1 P
-X 5 5 -200 -50 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

@@ -2,4 +2,5 @@
   (lib (name Dental_Guardian)(type Legacy)(uri ${KIPRJMOD}/Dental_Guardian.lib)(options "")(descr ""))
   (lib (name 2021-02-01_19-14-09)(type Legacy)(uri ${KIPRJMOD}/ul_MCP73811T420IOT/KiCAD/2021-02-01_19-14-09/2021-02-01_19-14-09.lib)(options "")(descr ""))
   (lib (name 2021-02-01_20-57-11)(type Legacy)(uri ${KIPRJMOD}/ul_UJCHP3SMTTR/KiCAD/2021-02-01_20-57-11/2021-02-01_20-57-11.lib)(options "")(descr ""))
+  (lib (name Dental_Guardian-rescue)(type Legacy)(uri ${KIPRJMOD}/Dental_Guardian-rescue.lib)(options "")(descr ""))
 )
